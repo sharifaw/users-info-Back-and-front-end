@@ -1,0 +1,69 @@
+body{
+  background-image: url("./img/tech.jpg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
+
+#main {
+    text-align: center;
+}
+
+#mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #mainDiv > div {
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+    border: rebeccapurple solid 4px;
+    border-radius: 36px;
+    padding: 9px;
+    background: linear-gradient(-60deg, hsl(254deg 50% 20%), hsl(236deg 60% 20%)), url("./img/mobile.jpg");
+  }
+  
+  img {
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  form {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding : 5px;
+    border: rebeccapurple solid 4px;
+    border-radius: 36px;
+    padding: 9px;
+    background: linear-gradient(-60deg, hsl(254deg 50% 20%), hsl(236deg 60% 20%)), url("./img/mobile.jpg");
+    width: 256px;
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  #add_user{
+    
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  #add_user input {
+    margin-bottom: 2px;
+  }
+
+  .noneDisplay{
+    display: none;
+  }
+  .inline-block-Display{
+    display: inline-block;
+  }
+
+  #wrong_name{
+    color: red;
+  }
+
+  .deleteBtn{
+    display: block;
+    margin: 5px auto;
+  }
